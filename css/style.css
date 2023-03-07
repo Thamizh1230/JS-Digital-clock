@@ -1,0 +1,126 @@
+ .main{
+    display: flex;
+    justify-content: center;
+ }
+ #digital{
+
+    /* width:100px;
+    height:100px; */
+    background-color: #000;
+    border: 16px #fff solid;
+   
+} 
+.subclass{
+    margin: 26px;
+    border: 4px solid gray;
+    border-radius: 5px;
+}
+
+
+.innerclass{
+
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 2px 0px #fff;
+}
+
+ #mydate{
+    color: #d81919f5;;
+    font-size: 45px;
+    border: 1px solid gray;
+    border-radius: 5px;
+} 
+.mydate-content{
+    margin: 16px;
+    color:white;
+    font-size:12px;
+}
+
+.mydate-content .clock-formate{
+    margin-right: 47px;
+    margin-left: 40px;
+}
+.mydate-content .clock-formate1{
+    margin-right: 38px;
+}
+
+.hrmms-content{
+    margin: 16px;
+    color:white;
+    font-size:12px;
+} 
+
+.hrmms-content .clock-formate{
+
+    margin-right: 47px;
+    margin-left: 40px;
+
+}
+.hrmms-content .clock-formate1{
+    margin-right: 38px;
+
+}
+
+#hrmms{
+    color: #d81919f5;;
+    font-size: 45px;
+    border: 1px solid gray;
+   border-radius: 5px;
+}
+#setdays{
+    width:100%;
+    text-align: center;
+}
+
+.days{
+    /* display: inline-block;
+    margin-right: 10px;
+    color:#000;
+    border: solid 1px #000;
+    padding:5px;
+    font-size: 8px;
+    border-radius: 50%; */
+    padding:9px 8px;
+    color:white;
+    font-size: 10px;
+}
+.day-circle{
+
+    border:1px solid white;
+    border-radius:50%;
+    position:relative;
+    top:-1px;
+    left:15px;
+    width:15px;
+    height: 15px;
+}
+
+.day-circle.active-days{
+    color: #000;
+    background-color: red;
+   
+}
+.ampm{
+    margin-top:10px;
+
+    
+}
+
+.ampm-circle{
+    border:1px solid white;
+    border-radius:50%;
+    position:relative;
+    top:-6px;
+    left:6px;
+    width:15px;
+    height: 15px;
+}
+.ampm-circle.active-days{
+    color: #000;
+    background-color: red;
+   
+}
+.ampmspan{
+    color:white;
+}

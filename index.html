@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section>
+        <div class="container"></div>
+            <div class="row"></div>
+            <div class="main">
+                <div id = "digital">
+                    <div class="subclass">
+                        <div class="innerclass">
+                            <div class="mydate-content">
+                                <span class="clock-formate">DATE</span>
+                                <span class="clock-formate1">MONTH</span>
+                                <span>YEAR</span> 
+                                <div id="mydate" class="d-flex justify-content-center"></div>
+                                
+                            </div>
+                            <div class="hrmms-content">
+                                <span class="clock-formate">HOUR</span>
+                                <span class="clock-formate1">MINUTE</span>
+                                <span>SECOND</span>
+                                <div id ="hrmms" class="d-flex justify-content-center">
+                                </div>
+                            </div>
+                           
+                            <div id="setdays" class="d-flex">
+                                <h5 class="day-circle active-days"></h5>
+                                <span class="days">SUN</span>
+                                <h3 class="day-circle"></h3>
+                                <span class="days">MON</span>
+                                <h3 class="day-circle"></h3>
+                                <span class="days">TUE</span>
+                                <h3 class="day-circle"></h3>
+                                <span class="days">WED</span>
+                                <h3 class="day-circle"></h3>
+                                <span class="days">THU</span>
+                                <h3 class="day-circle"></h3>
+                                <span class="days">FRI</span>
+                                <h3 class="day-circle"></h3>
+                                <span class="days">SAT</span>
+                            
+                            </div>
+
+                            <div id ="zone-box" class="ampm d-flex justify-content-end">
+                                <p class="ampm-circle active-days"></p>
+                                <div class="ampmspan">AM</div>
+                                <p class="ampm-circle"></p>
+                                <div class="ampmspan">PM</div>
+
+                            </div>
+
+                    </div>
+                        </div>
+                       
+                    
+                </div>
+            </div>
+               
+            
+        
+    </section>
+    <script type="text/javascript" src="./js/display.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
